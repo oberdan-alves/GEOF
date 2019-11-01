@@ -1,4 +1,4 @@
-def testastrings():
+﻿def testastrings():
     frase = 'Curso em Video Python'
     print(frase[9])
     print(frase[9:13])
@@ -371,6 +371,16 @@ def desafio055():
                 menor = peso
     print(f' maior {maior}')
     print(f' menor {menor}')
+
+
+def reduztempocompilacaoexpressaoregular():
+# copiado nao testado
+	from timeit import timeit
+	setup = """import re"""
+	timeit("""re.match(r'\d{4}', '1234')""", setup)1.5645811557769775
+	setup = """import re... milhar = re.compile(r'\d{4}')"""
+	timeit("""milhar.match('1234')""", setup)0.4098658561706543
+
 
 desafio055()
 
