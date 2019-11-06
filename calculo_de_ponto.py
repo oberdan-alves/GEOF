@@ -1,3 +1,6 @@
+from typing import Optional, Match
+
+
 def convertepdfparaimagem():
 
     from pdf2image import convert_from_path
@@ -24,12 +27,20 @@ def buscainformacoesnaimagem():
     #texto = []
     #padrao = re.findall(r'\d{2}/\d{2}/\d{4}', phrase)
     #padrao1 = re.findall(r'021 - Atraso a Compensar (BH ', phrase)
-    padrao1 = re.search(r'(021)( - )(\w+)( )(\w+)( )(\w+)([(])(\w+)', phrase)
+    # FUNCIONOU padrao1 = re.search(r'(021)( - )(\w+)( )(\w+)( )(\w+)( )([(])(\w+)', phrase)
+    padrao1: Optional[Match[str]] = re.search(r'(negat.([)]))( )(\w+)(:)(\w+)', phrase)
+    print(padrao1.group(4,5,6))
+    print(padrao1)
+    banconegativo = padrao1.group(4)+padrao1.group(5)+padrao1.group(6)
+    print(banconegativo)
+
+    #separa = re.split('g', padrao1)
+    #print(separa)
     #padrao1 = re.findall(r'\w+S', '(\d\d)/(\d\d)/(\d\d\d\d)')
     #emissao_string = padrao.search('Ponto141020191.pdf')
     #print(padrao)
-    print(padrao1)
-    #print(padrao1)
+
+
 
 buscainformacoesnaimagem()
 
