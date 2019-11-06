@@ -1,4 +1,7 @@
+from datetime import timedelta
 from typing import Optional, Match
+
+import datedelta as datedelta
 
 
 def convertepdfparaimagem():
@@ -17,9 +20,11 @@ def convertepdfparaimagem():
 
 def buscainformacoesnaimagem():
 
+
     import re
     import pytesseract as ocr
     from PIL import Image
+    from datetime import datetime
 
     phrase = ocr.image_to_string(Image.open('Ponto141020191.jpg'), lang='por')
     #print(phrase)
@@ -31,14 +36,24 @@ def buscainformacoesnaimagem():
     padrao1: Optional[Match[str]] = re.search(r'(negat.([)]))( )(\w+)(:)(\w+)', phrase)
     padrao2: Optional[Match[str]] = re.findall(r'(negat.([)]))( )(\w+)(:)(\w+)', phrase)
     print('padrao 2 => lista ', padrao2)
+    datetime_format = '%H:%M'
+    #soma = str
     for x in range(0, len(cont)):
-        print('padrao2 group => ',padrao2[x][3:6])
+        ###print('padrao2 group => ',padrao2[x][3:6])
         #print('padrao2 group => ',padrao2[1][3:6])
         #print('padrao2 group => ',padrao2.group(4,5,6))
         ##print('padrao1 => ',padrao1)
         #banconegativo = padrao1.group(4)+padrao1.group(5)+padrao1.group(6)
-        banconegativo = padrao2[x]+padrao2[4]+padrao2[5]
+        #banconegativo = padrao2[x][3]+padrao2[x][4]+padrao2[x][5]+padrao2[x][6]
+        banconegativo = padrao2[x][3]+padrao2[x][4]+padrao2[x][5]
         print('banconegativo =>', banconegativo)
+        ###print('tipo banconegativo => ', type(banconegativo))
+        convertestrtoint = datetime.strptime(banconegativo, '%H:%M').time()
+        ###print("tipo convertstrtoint => ", type(convertestrtoint))
+        print('banco negativo em horas convertstrtoint => ', convertestrtoint)
+
+        somabanconegativo = datetime.strptime(banconegativo, datetime_format)
+        print('soma ', somabanconegativo)
         continue
 
 buscainformacoesnaimagem()
