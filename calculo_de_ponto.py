@@ -23,24 +23,23 @@ def buscainformacoesnaimagem():
 
     phrase = ocr.image_to_string(Image.open('Ponto141020191.jpg'), lang='por')
     #print(phrase)
-
-    #texto = []
-    #padrao = re.findall(r'\d{2}/\d{2}/\d{4}', phrase)
-    #padrao1 = re.findall(r'021 - Atraso a Compensar (BH ', phrase)
     # FUNCIONOU padrao1 = re.search(r'(021)( - )(\w+)( )(\w+)( )(\w+)( )([(])(\w+)', phrase)
+    cont = re.findall(r'(021)', phrase)
+    print(len(cont))
+
+    print('cont => ', cont)
     padrao1: Optional[Match[str]] = re.search(r'(negat.([)]))( )(\w+)(:)(\w+)', phrase)
-    print(padrao1.group(4,5,6))
-    print(padrao1)
-    banconegativo = padrao1.group(4)+padrao1.group(5)+padrao1.group(6)
-    print(banconegativo)
-
-    #separa = re.split('g', padrao1)
-    #print(separa)
-    #padrao1 = re.findall(r'\w+S', '(\d\d)/(\d\d)/(\d\d\d\d)')
-    #emissao_string = padrao.search('Ponto141020191.pdf')
-    #print(padrao)
-
-
+    padrao2: Optional[Match[str]] = re.findall(r'(negat.([)]))( )(\w+)(:)(\w+)', phrase)
+    print('padrao 2 => lista ', padrao2)
+    for x in range(0, len(cont)):
+        print('padrao2 group => ',padrao2[x][3:6])
+        #print('padrao2 group => ',padrao2[1][3:6])
+        #print('padrao2 group => ',padrao2.group(4,5,6))
+        ##print('padrao1 => ',padrao1)
+        #banconegativo = padrao1.group(4)+padrao1.group(5)+padrao1.group(6)
+        banconegativo = padrao2[x]+padrao2[4]+padrao2[5]
+        print('banconegativo =>', banconegativo)
+        continue
 
 buscainformacoesnaimagem()
 
