@@ -1,0 +1,537 @@
+01/10/2019 Ter :     13:47    19:23  
+
+ 
+001 - Horas Trabalhadas
+ 05:13 
+ 
+   
+ 
+ 
+011 - Horas Excedentes Autorizadas
+ 00:23 
+ 
+   
+ 
+ 
+021 - Atraso a Compensar (BH negat.)
+ 04:47 
+ 
+   
+ 
+ 
+02/10/2019 Qua :     09:04    21:33  
+
+ 
+001 - Horas Trabalhadas
+ 04:56 
+ 
+   
+ 
+ 
+011 - Horas Excedentes Autorizadas
+ 07:33 
+ 
+   
+ 
+ 
+021 - Atraso a Compensar (BH negat.)
+ 01:04 
+ 
+   
+ 
+ 
+03/10/2019 Qui :     09:07    12:05    12:59    19:25  
+
+ 
+001 - Horas Trabalhadas
+ 08:53 
+ 
+   
+ 
+ 
+011 - Horas Excedentes Autorizadas
+ 00:25 
+ 
+   
+ 
+ 
+021 - Atraso a Compensar (BH negat.)
+ 01:07 
+ 
+   
+ 
+ 
+04/10/2019 Sex :     09:56    13:55  
+
+ 
+001 - Horas Trabalhadas
+ 03:59 
+ 
+   
+ 
+ 
+021 - Atraso a Compensar (BH negat.)
+ 02:01 
+ 
+   
+ 
+ 
+05/10/2019 Sáb :   Sem marcações 
+
+ 
+003 - Descanso Semanal
+ 00:01 
+ 
+   
+ 
+ 
+06/10/2019 Dom :   Sem marcações 
+
+ 
+003 - Descanso Semanal
+ 00:01 
+ 
+   
+ 
+ 
+07/10/2019 Seg :     07:50    12:41    13:29    17:45  
+
+ 
+001 - Horas Trabalhadas
+ 07:45 
+ 
+   
+ 
+ 
+011 - Horas Excedentes Autorizadas
+ 00:55 
+ 
+   
+ 
+ 
+024 - Atraso Compensado
+ 00:15 
+ 
+   
+ 
+ 
+08/10/2019 Ter :     09:55    12:05    13:11    19:27  
+
+ 
+001 - Horas Trabalhadas
+ 07:59 
+ 
+   
+ 
+ 
+011 - Horas Excedentes Autorizadas
+ 00:27 
+ 
+   
+ 
+ 
+021 - Atraso a Compensar (BH negat.)
+ 02:01 
+ 
+   
+ 
+ 
+09/10/2019 Qua :     09:28    16:14  
+
+ 
+001 - Horas Trabalhadas
+ 04:32 
+ 
+   
+ 
+ 
+011 - Horas Excedentes Autorizadas
+ 02:14 
+ 
+   
+ 
+ 
+021 - Atraso a Compensar (BH negat.)
+ 01:28 
+ 
+   
+ 
+ 
+10/10/2019 Qui :     09:20    14:39    15:37    19:37  
+
+ 
+001 - Horas Trabalhadas
+ 08:40 
+ 
+   
+ 
+ 
+011 - Horas Excedentes Autorizadas
+ 00:37 
+ 
+   
+ 
+ 
+021 - Atraso a Compensar (BH negat.)
+ 01:20 
+ 
+   
+ 
+ 
+11/10/2019 Sex :     10:02    15:31  
+
+ 
+001 - Horas Trabalhadas
+ 03:58 
+ 
+   
+ 
+ 
+011 - Horas Excedentes Autorizadas
+ 01:31 
+ 
+   
+ 
+ 
+021 - Atraso a Compensar (BH negat.)
+ 02:02 
+ 
+   
+ 
+ 
+12/10/2019 Sáb :   Sem marcações 
+
+ 
+003 - Descanso Semanal
+ 00:01 
+ 
+   
+ 
+ 
+13/10/2019 Dom :   Sem marcações 
+
+ 
+003 - Descanso Semanal
+ 00:01 
+ 
+   
+ 
+ 
+14/10/2019 Seg :     08:50    12:20    13:17    21:11  
+
+ 
+001 - Horas Trabalhadas
+ 08:00 
+ 
+   
+ 
+ 
+011 - Horas Excedentes Autorizadas
+ 03:21 
+ 
+   
+ 
+ 
+15/10/2019 Ter :     09:23    12:14    13:00    19:43  
+
+ 
+001 - Horas Trabalhadas
+ 08:37 
+ 
+   
+ 
+ 
+011 - Horas Excedentes Autorizadas
+ 00:43 
+ 
+   
+ 
+ 
+021 - Atraso a Compensar (BH negat.)
+ 01:23 
+ 
+   
+ 
+ 
+16/10/2019 Qua :     09:40    17:22  
+
+ 
+001 - Horas Trabalhadas
+ 04:20 
+ 
+   
+ 
+ 
+011 - Horas Excedentes Autorizadas
+ 03:22 
+ 
+   
+ 
+ 
+021 - Atraso a Compensar (BH negat.)
+ 01:40 
+ 
+   
+ 
+ 
+17/10/2019 Qui :     09:57    12:13    13:31    20:25  
+
+ 
+001 - Horas Trabalhadas
+ 07:45 
+ 
+   
+ 
+ 
+011 - Horas Excedentes Autorizadas
+ 01:25 
+ 
+   
+ 
+ 
+021 - Atraso a Compensar (BH negat.)
+ 02:15 
+ 
+   
+ 
+ 
+18/10/2019 Sex :     10:07    22:15  
+
+ 
+001 - Horas Trabalhadas
+ 03:53 
+ 
+   
+ 
+ 
+010 - Adicional Noturno
+ 00:15 
+ 
+   
+ 
+ 
+011 - Horas Excedentes Autorizadas
+ 08:15 
+ 
+   
+ 
+ 
+021 - Atraso a Compensar (BH negat.)
+ 02:07 
+ 
+   
+ 
+ 
+19/10/2019 Sáb :   Sem marcações 
+
+ 
+003 - Descanso Semanal
+ 00:01 
+ 
+   
+ 
+ 
+20/10/2019 Dom :   Sem marcações 
+
+ 
+003 - Descanso Semanal
+ 00:01 
+ 
+   
+ 
+ 
+21/10/2019 Seg :     09:00    12:16    13:22    21:35  
+
+ 
+001 - Horas Trabalhadas
+ 07:54 
+ 
+   
+ 
+ 
+011 - Horas Excedentes Autorizadas
+ 03:35 
+ 
+   
+ 
+ 
+021 - Atraso a Compensar (BH negat.)
+ 00:06 
+ 
+   
+ 
+ 
+22/10/2019 Ter :     08:57    12:10    13:04    19:50  
+
+ 
+001 - Horas Trabalhadas
+ 09:03 
+ 
+   
+ 
+ 
+011 - Horas Excedentes Autorizadas
+ 00:50 
+ 
+   
+ 
+ 
+021 - Atraso a Compensar (BH negat.)
+ 00:57 
+ 
+   
+ 
+ 
+23/10/2019 Qua :     09:07    15:06  
+
+ 
+001 - Horas Trabalhadas
+ 04:53 
+ 
+   
+ 
+ 
+011 - Horas Excedentes Autorizadas
+ 01:06 
+ 
+   
+ 
+ 
+021 - Atraso a Compensar (BH negat.)
+ 01:07 
+ 
+   
+ 
+ 
+24/10/2019 Qui :     09:29    13:43    14:39    19:47  
+
+ 
+001 - Horas Trabalhadas
+ 08:31 
+ 
+   
+ 
+ 
+011 - Horas Excedentes Autorizadas
+ 00:47 
+ 
+   
+ 
+ 
+021 - Atraso a Compensar (BH negat.)
+ 01:29 
+ 
+   
+ 
+ 
+25/10/2019 Sex :     09:24    17:12  
+
+ 
+001 - Horas Trabalhadas
+ 04:36 
+ 
+   
+ 
+ 
+011 - Horas Excedentes Autorizadas
+ 03:12 
+ 
+   
+ 
+ 
+021 - Atraso a Compensar (BH negat.)
+ 01:24 
+ 
+   
+ 
+ 
+26/10/2019 Sáb :   Sem marcações 
+
+ 
+003 - Descanso Semanal
+ 00:01 
+ 
+   
+ 
+ 
+27/10/2019 Dom :   Sem marcações 
+
+ 
+003 - Descanso Semanal
+ 00:01 
+ 
+   
+ 
+ 
+28/10/2019 Seg :   Sem marcações 
+
+ 
+240 - Falta Injustificada
+ 08:00 
+ 
+ PONTO FACULTATIVO 
+ 
+ 
+29/10/2019 Ter :     09:10    12:46    13:30    19:39  
+
+ 
+001 - Horas Trabalhadas
+ 08:50 
+ 
+   
+ 
+ 
+011 - Horas Excedentes Autorizadas
+ 00:39 
+ 
+   
+ 
+ 
+021 - Atraso a Compensar (BH negat.)
+ 01:10 
+ 
+   
+ 
+ 
+30/10/2019 Qua :     08:56    18:00  
+
+ 
+001 - Horas Trabalhadas
+ 05:04 
+ 
+   
+ 
+ 
+011 - Horas Excedentes Autorizadas
+ 04:00 
+ 
+   
+ 
+ 
+021 - Atraso a Compensar (BH negat.)
+ 00:56 
+ 
+   
+ 
+ 
+31/10/2019 Qui :     09:26    13:21    13:51    19:33  
+
+ 
+001 - Horas Trabalhadas
+ 08:34 
+ 
+   
+ 
+ 
+011 - Horas Excedentes Autorizadas
+ 00:33 
+ 
+   
+ 
+ 
+021 - Atraso a Compensar (BH negat.)
+ 01:26 
+ 
+   
+ 
+ 
